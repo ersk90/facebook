@@ -1,0 +1,67 @@
+html,body{
+	background: #D7DCEA;
+}
+.container-fluid{
+	padding: 0px;
+	margin: 0px;
+	/*background:linear-gradient(white,#D7DCEA)*/
+	background: #D7DCEA;
+}
+.well{
+	background: #425F9C;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logo{
+	color: white;
+	font-weight: bold;
+}
+
+.form-group label{
+	color:white;
+}
+
+#fbImage{
+	width: 300px;
+}
+
+
+#homeMenu{
+	background: #425F9C;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+
+#propic{
+	width:40px;
+}
+
+#post li{
+	float: left;
+	margin: 10px;
+}
+#friendbox{
+	width: 300px; 
+	height: auto; 
+	padding: 10px; 
+	position: fixed; 
+	display: none; 
+	background: red; 
+	margin-left: 65%; 
+	margin-top: 3.3%; 
+	z-index: 1
+}
+
+/*css for mobile layout */
+@media screen and (max-width: 767px) {
+	.well{
+		padding: 10px;
+	}
+
+	#logo{
+		text-align: center;
+	}
+}
+
